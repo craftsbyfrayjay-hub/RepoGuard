@@ -1,19 +1,19 @@
 import sys
 
-def parse_env[path]:
-    variables = set()
-    with open(path, "r") as f:
-        for line in f:
-            line = line.strip()
-            if not line or line.startsWith("#"):
-                continue
-            if "=" in line:
-                key = line.split("=", 1)[0]
-                variables.add(key)
-    return variables
+def parse_env(path):
+	variables = set()
+	with open(path, "r") as f:
+		for line in f:
+			line = line.strip()
+			if (not line) or line.startswith("#"):
+				continue
+			if "=" in line:
+				key = line.split("=", 1)[0]
+				variables.add(key)
+	return variables
 
 def main():
-    if len(sys.argv) != 4 or sys.argv[1] != "compare":
+	if len(sys.argv) != 4 or sys.argv[1] != "compare":
 		print("Usage: envguard compare <fileA> <fileB>")
 
 	file_a = sys.argv[2]
