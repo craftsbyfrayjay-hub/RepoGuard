@@ -3,11 +3,11 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "envguard"
-version = "0.1.1"
-description = "Compare .env files and detect missing or extra variables"
+name = "EXAMPLE"
+version = "0.0.1"
+description = "EXAMPLE"
 authors = [{ name="CraftsByFrayJay" }]
 dependencies = []
 
 [project.scripts]
-envguard = "envguard.cli:main"
+EXAMPLE = "EXAMPLE.cli:main"
