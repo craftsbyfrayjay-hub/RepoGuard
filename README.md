@@ -23,4 +23,8 @@ Values are never read, stored, or logged.
 ## Commercial version
 
 For commercial use, binaries, and future updates:
-👉 https://gumroad.com/l/envguard
+
+👉    https://gumroad.com/l/envguard
+
+This version also includes additional flags  
+

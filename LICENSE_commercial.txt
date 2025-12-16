@@ -1,0 +1,8 @@
+Commercial License
+
+This license grants you the right to use EnvGuard for commercial purposes,
+including use within companies, client projects, and internal tools.
+
+You may not resell, redistribute, or repackage EnvGuard as a competing product.
+
+Copyright © 2025
