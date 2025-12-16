@@ -3,11 +3,11 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "EXAMPLE"
+name = "RepoGuard"
 version = "0.0.1"
-description = "EXAMPLE"
+description = "Simple CLI tool to check basic repository health"
 authors = [{ name="CraftsByFrayJay" }]
 dependencies = []
 
 [project.scripts]
-EXAMPLE = "EXAMPLE.cli:main"
+repoguard = "app.cli:main"

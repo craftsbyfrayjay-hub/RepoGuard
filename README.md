@@ -1,11 +1,12 @@
 ## Usage
 
-```bash
-[EXAMPLE]
+```
+repoguard /path/to/repo
 ```
 
 ## Security
-[EXAMPLE]
+RepoGuard only compares file names.
+Values are never read, stored, or logged.
 
 ## Commercial version
 
