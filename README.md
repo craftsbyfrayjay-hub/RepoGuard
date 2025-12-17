@@ -12,6 +12,6 @@ Values are never read, stored, or logged.
 
 For commercial use, binaries, and future updates:
 
-👉 [EXAMPLE]
+👉 https://gumroad.com/l/repoguard
 
-
+This version also includes additional flags  
